@@ -1,0 +1,16 @@
+[
+  {
+    "name" : "com.example.springdocgraal.parameterobject.ReflectionController",
+    "fields" : [
+      { "name" : "containingClass" },
+      { "name" : "parameterType" }
+    ]
+  },
+  {
+    "name" : "org.springframework.core.MethodParameter",
+    "fields" : [
+      { "name" : "containingClass" },
+      { "name" : "parameterType" }
+    ]
+  }
+]

@@ -16,6 +16,10 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.1.0'
+	/*implementation('org.springdoc:springdoc-openapi-starter-webmvc-ui:2.1.0') {
+		exclude group: 'org.springdoc', module: 'springdoc-openapi-starter-common'
+	}*/
+	// implementation files('libs/springdoc-openapi-starter-common-2.1.0.jar')
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
